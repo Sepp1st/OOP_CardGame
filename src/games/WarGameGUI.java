@@ -93,8 +93,8 @@ public class WarGameGUI extends JFrame {
             } else {
                 resultLabel.setText("It's a tie! Cards are returned to the deck.");
                 deck.shuffle();
-                deck.cards.add(card1);
-                deck.cards.add(card2);
+                deck.getCards().add(card1);
+                deck.getCards().add(card2);
             }
 
             // Check if the game is over
